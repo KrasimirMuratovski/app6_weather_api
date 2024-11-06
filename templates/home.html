@@ -2,25 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weather data API</title>
 </head>
 <body>
-<nav>
-    <a href="/about/">About</a>
-    <a href="/contact-us/">Contact Us</a>
-    <a href="/store/">Store</a>
-</nav>
-<h2>
-    <p>
-        My text!
-    </p>
-<!--    <img src="/static/cat.png" alt="Cat" style = "width:300px">-->
-    <img src="{{ url_for('static', filename = 'cat.png') }}" alt="Cat" style = "width:300px">
-<!--    <img src="{{url_for('static', filename = 'cat.png')}}" alt="">-->
-    <br>
-    <br>
-    <a href="https://google.com">Google</a>
-</h2>
-
+<h1>Weather data API</h1>
+<p>URL Format: http://127.0.0.1:5000/api/v1/station/date</p>
+<p>URL Example: http://127.0.0.1:5000/api/v1/10/1988-10-05</p>
 </body>
 </html>

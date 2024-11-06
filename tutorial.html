@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <a href="/about/">About</a>
+    <a href="/contact-us/">Contact Us</a>
+    <a href="/store/">Store</a>
+</nav>
+<h2>
+    <p>
+        My text!
+    </p>
+<!--    <img src="/static/cat.png" alt="Cat" style = "width:300px">-->
+    <img src="{{ url_for('static', filename = 'cat.png') }}" alt="Cat" style = "width:300px">
+<!--    <img src="{{url_for('static', filename = 'cat.png')}}" alt="">-->
+    <br>
+    <br>
+    <a href="https://google.com">Google</a>
+</h2>
+
+</body>
+</html>
